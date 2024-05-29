@@ -7,34 +7,34 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Supuni's Portfolio",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Supuni Abeysinghe Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http://SupuniAbeysinghe.com/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Supuni Abeysinghe",
+  logo_name: "Supuni Abeysinghe",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "a motivated and dedicated Software Engineering undergraduate at the University of Kelaniya. Possesses excellent time management, teamwork, and communication skills. A fast learner who thrives in dynamic environments and adapts quickly to new challenges and technologies",
   resumeLink:
     "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+  portfolio_repository:
+    "https://github.com/SupuniAbeysinghe/SupuniAbeysinghe.github.io.git",
+  githubProfile: "https://github.com/SupuniAbeysinghe",
 };
 
 const socialMediaLinks = [
   /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
+  // github: "https://github.com/SupuniAbeysinghe",
+  // linkedin: "https://www.linkedin.com/in/supuni-abeysinghe-b2289b221/",
+  // gmail: "abeysinghesupuni@gmail.com",
   // gitlab: "https://gitlab.com/ashutoshhathidara98",
   // facebook: "https://www.facebook.com/laymanbrother.19/",
   // twitter: "https://twitter.com/ashutosh_1919",
@@ -42,95 +42,82 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/SupuniAbeysinghe",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/supuni-abeysinghe-b2289b221/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
-  {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:abeysinghesupuni@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
+  // {
+  //     name: "Facebook",
+  //     link: "https://www.facebook.com/laymanbrother.19/",
+  //     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+  //     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+  // },
   {
-    name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
-  },
-  {
-    name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+    name: "Medium",
+    link: "https://medium.com/@supuniab1",
+    fontAwesomeIcon: "fa-medium", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "#181717", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
 const skills = {
   data: [
-    {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
-        },
-      ],
-    },
+    //{
+    //         title: "Data Science & AI",
+    //         fileName: "DataScienceImg",
+    //         skills: [
+    //             "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
+    //             "⚡ Experience of working with Computer Vision and NLP projects",
+    //             "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+    //         ],
+    //         softwareSkills: [{
+    //                 skillName: "Tensorflow",
+    //                 fontAwesomeClassname: "logos-tensorflow",
+    //                 style: {
+    //                     backgroundColor: "transparent",
+    //                 },
+    //             },
+    //             {
+    //                 skillName: "Keras",
+    //                 fontAwesomeClassname: "simple-icons:keras",
+    //                 style: {
+    //                     backgroundColor: "white",
+    //                     color: "#D00000",
+    //                 },
+    //             },
+    //             {
+    //                 skillName: "PyTorch",
+    //                 fontAwesomeClassname: "logos-pytorch",
+    //                 style: {
+    //                     backgroundColor: "transparent",
+    //                 },
+    //             },
+    //             {
+    //                 skillName: "Python",
+    //                 fontAwesomeClassname: "ion-logo-python",
+    //                 style: {
+    //                     backgroundColor: "transparent",
+    //                     color: "#3776AB",
+    //                 },
+    //             },
+    //             {
+    //                 skillName: "Deeplearning",
+    //                 imageSrc: "deeplearning_ai_logo.png",
+    //             },
+    //         ],
+    //     },
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
@@ -140,6 +127,21 @@ const skills = {
         "⚡ Creating application backend in Node, Express & Flask",
       ],
       softwareSkills: [
+        {
+          skillName: "SpringBoot",
+          fontAwesomeClassname: "simple-icons:springboot",
+          style: {
+            color: "#339933",
+          },
+        },
+        // {
+        //     skillName: "Java",
+        //     fontAwesomeClassname: "simple-icons:java",
+        //     style: {
+        //         backgroundColor: "#000000",
+        //         color: "#339933",
+        //     },
+        // },
         {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
@@ -154,13 +156,14 @@ const skills = {
             color: "#1572B6",
           },
         },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
+        // {
+        //     skillName: "Sass",
+        //     fontAwesomeClassname: "simple-icons:sass",
+        //     style: {
+        //         color: "#CC6699",
+        //     },
+        // },
+
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
@@ -190,20 +193,20 @@ const skills = {
             color: "#CB3837",
           },
         },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
+        // {
+        //     skillName: "Yarn",
+        //     fontAwesomeClassname: "simple-icons:yarn",
+        //     style: {
+        //         color: "#2C8EBB",
+        //     },
+        // },
+        // {
+        //     skillName: "Gatsby",
+        //     fontAwesomeClassname: "simple-icons:gatsby",
+        //     style: {
+        //         color: "#663399",
+        //     },
+        // },
         {
           skillName: "Flutter",
           fontAwesomeClassname: "simple-icons:flutter",
@@ -237,20 +240,20 @@ const skills = {
             color: "#FF9900",
           },
         },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
+        // {
+        //     skillName: "Azure",
+        //     fontAwesomeClassname: "simple-icons:microsoftazure",
+        //     style: {
+        //         color: "#0089D6",
+        //     },
+        // },
+        // {
+        //     skillName: "Firebase",
+        //     fontAwesomeClassname: "simple-icons:firebase",
+        //     style: {
+        //         color: "#FFCA28",
+        //     },
+        // },
         {
           skillName: "PostgreSQL",
           fontAwesomeClassname: "simple-icons:postgresql",
@@ -311,13 +314,13 @@ const skills = {
             color: "#FF7C00",
           },
         },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
+        // {
+        //     skillName: "Inkscape",
+        //     fontAwesomeClassname: "simple-icons:inkscape",
+        //     style: {
+        //         color: "#000000",
+        //     },
+        // },
       ],
     },
   ],
