@@ -677,38 +677,44 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of latest technology tools.",
   avatar_image_path: "projects_image.svg",
 };
 
 const publicationsHeader = {
   title: "Publications",
-  description: "Some of my published Articles, Blogs and Research.",
+  description: "Some of my published Articles..",
   avatar_image_path: "projects_image.svg",
 };
 
 const publications = {
   data: [
     {
-      id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
+      id:
+        "Understanding Microservices Architecture: A Comprehensive Introduction",
+      name:
+        "Understanding Microservices Architecture: A Comprehensive Introduction",
+      createdAt: "2024-06-03",
+      //description: "Paper published in KDD KiML 2023",
+      url:
+        "https://medium.com/@supuniab1/understanding-microservices-architecture-a-comprehensive-introduction-607e212e8c97",
     },
     {
-      id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
+      id:
+        "Comprehensive Overview of OAuth2.0 and JWT: Securing Your Applications",
+      name:
+        "Comprehensive Overview of OAuth2.0 and JWT: Securing Your Applications",
+      createdAt: "2024-05-15",
+      //description: "Blog published in Paperspace",
+      url:
+        "https://medium.com/@supuniab1/comprehensive-overview-of-oauth2-0-and-jwt-securing-your-applications-cf5f9745d2ff",
     },
     {
-      id: "consistency-models",
-      name: "Consistency Models",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/consistency-models/",
+      id: "Software Licensing",
+      name: "Software Licensing",
+      createdAt: "2023-09-14",
+      //description: "Blog published in Paperspace",
+      url: "https://medium.com/@supuniab1/software-licensing-bad2e17700a4",
     },
   ],
 };
