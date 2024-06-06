@@ -691,6 +691,26 @@ const publications = {
   data: [
     {
       id:
+        "Linux Mastery #2 : Linux Man Page Structure: A Guide to Navigating Documentation",
+      name:
+        "Linux Mastery #2 : Linux Man Page Structure: A Guide to Navigating Documentation",
+      createdAt: "2024-06-05",
+      //description: "Blog published in Paperspace",
+      url:
+        "https://medium.com/@supuniab1/linux-mastery-2-linux-man-page-structure-a-guide-to-navigating-documentation-88f451ecde9b",
+    },
+    {
+      id:
+        "Linux Mastery #1 : Unlocking the Power: First Steps into the Linux Command Line",
+      name:
+        "Linux Mastery #1 : Unlocking the Power: First Steps into the Linux Command Line",
+      createdAt: "2024-06-05",
+      //description: "Blog published in Paperspace",
+      url:
+        "https://medium.com/@supuniab1/linux-mastery-1-unlocking-the-power-first-steps-into-the-linux-command-line-19a88f5b82c4",
+    },
+    {
+      id:
         "Understanding Microservices Architecture: A Comprehensive Introduction",
       name:
         "Understanding Microservices Architecture: A Comprehensive Introduction",
